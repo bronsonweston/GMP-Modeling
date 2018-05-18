@@ -51,7 +51,7 @@ ylabel('Protein Activity', 'fontsize', 18)
 ylim([0 1.05])
 xlim([0 timeofsim+5])
 title({['GM-CSF = ', num2str(GMCSF)], ['M-CSF = ', num2str(MCSF)], ['G-CSF = ', num2str(GCSF)]}, 'fontsize', 16)
-leg=legend('[C/EBP\alpha]_T', '[C/EBP\alpha]_F', 'Gfi-1', 'G-CSFR', 'PU.1', 'Egr-2', 'IRF8/AP1', 'M-CSFR', 'GM-CSFR', 'Location', 'eastoutside');%, 'Orientation','horizontal');
+leg=legend('C/EBP_T', 'C/EBP_F', 'Gfi-1', 'G-CSFR', 'PU.1', 'Egr-2', 'IRF8', 'M-CSFR', 'GM-CSFR', 'Location', 'eastoutside');%, 'Orientation','horizontal');
 box on
 
 end
