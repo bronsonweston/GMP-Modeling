@@ -1,6 +1,7 @@
 function [ output_args ] = TimeCourseSimulation(GMCSF, MCSF,GCSF,timeofsim)
-%UNTITLED4 Summary of this function goes here
-%   Detailed explanation goes here
+%Returns a simulation of protein activity over the specified simulation
+%time, timeofsim, and given the specified cytokine concentrations. Requires
+%SystemODE.m
 %%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&%
 
 global S1 S2 S3;

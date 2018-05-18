@@ -1,6 +1,6 @@
 README FILE:
 
-The contents of this project correspond to the model published by Weston et al. titled "Dynamic Analysis of Cytokine-Induced Differentiation of 
+The contents of this project correspond to the model published by Weston et al. titled Mathematical Analysis of Cytokine-Induced Differentiation of 
 Granulocyte-Monocyte Progenitor Cells". This code was written in MATLAB, version R2016a.
 
 Scripts intended for users to modify and run are 'MainScript.m' and 'FigureGenerating.m'.

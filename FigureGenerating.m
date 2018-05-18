@@ -1,8 +1,8 @@
 %%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&%
 % Script for reproducing figures published in the paper,
-% "Dynamic Analysis of Cytokine-Induced Differentiation of 
+% "Mathematical Analysis of Cytokine-Induced Differentiation of 
 % Granulocyte-Monocyte Progenitor Cells"
-% Dec. 7, 2017. Bronson R. Weston et al.
+% May 18, 2018. Bronson R. Weston et al.
 % 
 % This script requires a user to uncomment code corresponding to the
 % figure they wish to generate.
@@ -14,6 +14,10 @@ S1=0; S2=0; S3=0;
 %%%%%%%%%%%%%%%%%%%%% Figure 3A&B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % TimeCourseSimulation(0, 1,0,70)
 % TimeCourseSimulation(0, 0,1,70)
+
+%%%%%%%%%%%%%%%%%%%%% Figure 3C&D %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BarChart(0, 1,0)
+% BarChart(0, 0,1)
 
 %%%%%%%%%%%%%%%%%%%%% Figure 4A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % NullclinesProjections(0, 0, 0, 'yes')
@@ -37,15 +41,20 @@ S1=0; S2=0; S3=0;
 % TimeCourseSimulation(0.6, 0,0,60)
 % TimeCourseSimulation(1.2, 0, 0,60)
 
+%%%%%%%%%%%%%%%%%%%%% Figure 7C&D %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BarChart(0.6, 0,0)
+% BarChart(1.2, 0, 0)
 
-%%%%%%%%%%%%%%%%%%%%% Figure 7C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Figure7C()
+%%%%%%%%%%%%%%%%%%%%% Figure 7E %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Figure7E()
 
 %%%%%%%%%%%%%%%%%%%%% Figure 8A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % TimeCourseSimulation(0.9, 0, 0,110)
 
-
 %%%%%%%%%%%%%%%%%%%%% Figure 8B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BarChart(0.9, 0, 0)
+
+%%%%%%%%%%%%%%%%%%%%% Figure 8C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Bifurcation('GM-CSF')
 
 
